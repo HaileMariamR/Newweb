@@ -1,0 +1,23 @@
+body{
+	background-color: rgb(200,234,256);
+}
+#divone{
+	display: flex;
+	margin-left: 220px;
+	margin-top: 30px;
+}
+#divone > div{
+	margin-left: 30px;
+	height: 400px;
+	width: 300px;
+	background-color: rgb(12,23,56);
+	color: white;
+	justify-content: center;
+
+}
+#divone div > p{
+	margin: 40px 20px 10px 20px;
+}
+#divone div:hover{
+	transform: scale(1.1);
+}
